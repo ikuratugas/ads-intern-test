@@ -1,0 +1,43 @@
+name: adma_digital_solusi_magang
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/icons/
+    - lib/assets/images/
+    - lib/assets/
+
+  fonts:
+    - family: Overp 
+      fonts:
+        - asset: assets/fonts/Overpass-Medium.ttf
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/arial.ttf
+    - family: Sofiapro
+      fonts:
+        - asset: assets/fonts/sofiapro.otf
